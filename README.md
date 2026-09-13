@@ -13,3 +13,5 @@ Fique à vontade para explorar!
 Inicialmente não tem lá muita coisa, mas vai que eu ganho paciência... por hora tem isso aqui:
 
 - Cronograma da obra elétrica em grafico de Gantt [Cronograma](Gantt_Obra_Eletrica_interativo.html)
+
+Link de teste para a pagina antes do Cornograma [teste](PaginaDaObra.md).
