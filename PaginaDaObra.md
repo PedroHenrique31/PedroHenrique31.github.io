@@ -20,8 +20,11 @@ Aqui tá o cronograma por tarefas.
     style="border: none;">
 </iframe>
 
+
 O gráfico é interativo: você pode navegar pelo cronograma e
 visualizar as relações entre as atividades.
+
+Você pode navegar pela barra colorida na parte de baixo e ajustar o tamanho e a janela que quer visualizar.
 
 ## Minha interpretação
 
