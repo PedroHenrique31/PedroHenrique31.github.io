@@ -12,6 +12,6 @@ Fique à vontade para explorar!
 
 Inicialmente não tem lá muita coisa, mas vai que eu ganho paciência... por hora tem isso aqui:
 
-- Cronograma da obra elétrica em grafico de Gantt [Cronograma](Gantt_Obra_Eletrica_interativo.html)
+- Cronograma da obra elétrica em grafico de Gantt [Cronograma](PaginaDaObra.md)
+- Redirecionar para meu mapinha do DF com os mapas de renda per capta
 
-Link de teste para a pagina antes do Cornograma [teste](PaginaDaObra.md).
