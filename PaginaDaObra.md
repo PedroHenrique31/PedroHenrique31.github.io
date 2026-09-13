@@ -13,6 +13,9 @@ Para quem tiver dúvidas, segue aqui um link explicando como funciona um diagram
 
 ## Cronograma
 Aqui tá o cronograma por tarefas.
+
+Para navegar ao longo do gráfico basta clicar e arrastar, o scroll funciona para dar zoom.
+
 <iframe
     src="Gantt_Obra_Eletrica_interativo.html"
     width="100%"
