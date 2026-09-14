@@ -19,7 +19,7 @@ Para navegar ao longo do gráfico basta clicar e arrastar, o scroll funciona par
 <iframe
     src="Gantt_Obra_Eletrica_interativo.html"
     width="100%"
-    height="700"
+    height="900"
     style="border: none;">
 </iframe>
 
@@ -40,5 +40,9 @@ Só que colocar as coisas em ordem já me permite visualizar algumas situações
 
 Eu documentei algumas atividades não individualmente (para não poluir a vista do usuário), mas por prumadas, como as atividades de troca dos relógios medidores a ser efetuada.
 No mais, me contatem para mais dúvidas, e espero que o trabalho vos seja útil.
+
+## Detalhe que faltou
+
+Esqueci de fracionar a atividade de instalação dos painéis, ela também deveria ser vista por prumada. Sei que a entrada 2 está e execução e a prumada 1?
 
 Valeu gente! 👍👍
