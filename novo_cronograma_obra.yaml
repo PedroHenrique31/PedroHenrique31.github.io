@@ -59,8 +59,29 @@ tarefas:
     duracao_dias: 22
     tipo: atividade
     depende_de: []
-  - id: T16
-    nome: "Instalação da fiação nos painéis"
+  - id: T19
+    nome: "Instalação da fiação nos painéis - prumada 1"
+    inicio: "2026-09-11"
+    fim: "2026-09-30"
+    duracao_dias: 14
+    tipo: atividade
+    depende_de: []
+  - id: T20
+    nome: "Instalação da fiação nos painéis - prumada 2"
+    inicio: "2026-09-11"
+    fim: "2026-09-30"
+    duracao_dias: 14
+    tipo: atividade
+    depende_de: []
+  - id: T21
+    nome: "Instalação da fiação nos painéis - prumada 3"
+    inicio: "2026-09-11"
+    fim: "2026-09-30"
+    duracao_dias: 14
+    tipo: atividade
+    depende_de: []
+  - id: T22
+    nome: "Instalação da fiação nos painéis - prumada 4"
     inicio: "2026-09-11"
     fim: "2026-09-30"
     duracao_dias: 14
@@ -82,7 +103,7 @@ tarefas:
     depende_de: []
   - id: T15
     nome: "Avisar aos moradores do desligamento geral"
-    inicio: "2026-10-02"
+    inicio: "2026-09-08"
     fim: "2026-10-02"
     duracao_dias: 1
     tipo: marco
@@ -129,6 +150,13 @@ tarefas:
     duracao_dias: 7
     tipo: atividade
     depende_de: []
+  - id: T18
+    nome: "Descobrir quais apartamentos estão quebrados"
+    inicio: "2026-10-06"
+    fim: "2026-10-06"
+    duracao_dias: 1
+    tipo: marco
+    depende_de: []
   - id: T13
     nome: "Pintura dos apartamentos quebrados"
     inicio: "2026-10-06"
@@ -143,13 +171,7 @@ tarefas:
     duracao_dias: 1
     tipo: marco
     depende_de: []
-  - id: T18
-    nome: "Descobrir quais apartamentos estão quebrados"
-    inicio: "2026-10-06"
-    fim: "2026-10-06"
-    duracao_dias: 1
-    tipo: marco
-    depende_de: []
+  
 legenda:
   tipo: "atividade ou marco"
   depende_de: "lista de IDs das tarefas predecessoras; vazia neste cronograma"
