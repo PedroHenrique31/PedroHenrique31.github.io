@@ -45,6 +45,12 @@ No mais, me contatem para mais dúvidas, e espero que o trabalho vos seja útil.
 ## Etapas realizadas
 
 Hoje (17 de setembro) segundo o engenheiro responsável, já foram entregues todos os painéis, assim procedemos com o cronograma de pagamento.
-Conforme informado, proseeguiremos para a troca do barramento geral na semana que vem (dia 23/09) e posteriormente a troca dos relógios medidores, dado que a neonenergia ainda não noticiou isso.
+Conforme informado, prosseguiremos para a troca do barramento geral na semana que vem (dia 23/09) e posteriormente a troca dos relógios medidores, dado que a neonenergia ainda não noticiou sobre isso (perguntarei semana que vem).
+
+![Print da noticia relatada](./Captura de tela de 2026-09-17 14-15-26)
+
+No mais, preciso conversar com o José a respeito das datas e procedimento para as trocas dos relógio medidores.
+
+**Nota mental:** lembrar de adicionar o marco do pagamento hoje depois
 
 Valeu gente! 👍👍
