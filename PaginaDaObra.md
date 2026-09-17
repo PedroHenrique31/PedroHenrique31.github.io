@@ -42,8 +42,9 @@ Só que colocar as coisas em ordem já me permite visualizar algumas situações
 Eu documentei algumas atividades não individualmente (para não poluir a vista do usuário), mas por prumadas, como as atividades de troca dos relógios medidores a ser efetuada.
 No mais, me contatem para mais dúvidas, e espero que o trabalho vos seja útil.
 
-## Detalhe que faltou
+## Etapas realizadas
 
-Nada a perguntar por enquanto.
+Hoje (17 de setembro) segundo o engenheiro responsável, já foram entregues todos os painéis, assim procedemos com o cronograma de pagamento.
+Conforme informado, proseeguiremos para a troca do barramento geral na semana que vem (dia 23/09) e posteriormente a troca dos relógios medidores, dado que a neonenergia ainda não noticiou isso.
 
 Valeu gente! 👍👍
