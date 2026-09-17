@@ -34,8 +34,9 @@ Você pode navegar pela barra colorida na parte de baixo e ajustar o tamanho e a
 Espero que esse projeto ajude a elucidar de forma clara a minha visão a cerca de como a obra será executada.
 Só que colocar as coisas em ordem já me permite visualizar algumas situações de coisas a perguntar, seguem algumas aqui:
 
-1.O pagamento da segunda etapa da obra já foi feito? Nem pensei que ainda havia algum marco para isso, achava que havíamos comprado todas as etapas antes
+1. O pagamento da segunda etapa da obra já foi feito? Nem pensei que ainda havia algum marco para isso, achava que havíamos comprado todas as etapas antes
 2. Em que pé estamos no andamento das instalações dos painéis?
+   - Eles foram montados semana passada no local, mas ainda aguardam a instalação da fiação elétrica, mas tarde vou perguntar ao engenheiro se essa ligação e a passagem dos novos cabos, já pode ser feita, ou se será executada APÓS a troca do barramento geral (dia 23/09)
 3. Faltam atividades a serem listadas?
 
 Eu documentei algumas atividades não individualmente (para não poluir a vista do usuário), mas por prumadas, como as atividades de troca dos relógios medidores a ser efetuada.
@@ -43,6 +44,6 @@ No mais, me contatem para mais dúvidas, e espero que o trabalho vos seja útil.
 
 ## Detalhe que faltou
 
-Esqueci de fracionar a atividade de instalação dos painéis, ela também deveria ser vista por prumada. Sei que a entrada 2 está e execução e a prumada 1?
+Nada a perguntar por enquanto.
 
 Valeu gente! 👍👍
