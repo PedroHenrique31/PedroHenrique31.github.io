@@ -74,7 +74,7 @@ Usar simplesmente a menor renda encontrada seria pouco representativo. Uma únic
 
 O P10 é mais interessante porque nos leva para perto da parte inferior da distribuição, mas ainda representa um grupo relevante das observações.
 
-### P50 — a mediana, nossa velha amiga
+### P50 — a mediana, é... ela mermo!
 
 E finalmente chegamos a ela: **a mediana**.
 
