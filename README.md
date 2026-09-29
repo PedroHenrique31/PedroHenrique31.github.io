@@ -13,5 +13,5 @@ Fique à vontade para explorar!
 Inicialmente não tem lá muita coisa, mas vai que eu ganho paciência... por hora tem isso aqui:
 
 - Cronograma da obra elétrica em grafico de Gantt [Cronograma](ObraEletrica/PaginaDaObra.md)
-- Redirecionar para meu mapinha do DF com os mapas de renda per capta [Aqui](GeopandasDF.md)
+- Redirecionar para meu mapinha do DF com os mapas de renda per capta [Aqui](AnaliseDF/GeopandasDF.md)
 
