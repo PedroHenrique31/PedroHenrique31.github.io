@@ -10,13 +10,23 @@ O repositório tá em [Projeto GeoPandas](https://github.com/PedroHenrique31/Pro
 
 ## Entendendo os indicadores de renda
 
-Os indicadores de renda não mostram exatamente a mesma coisa. Alguns representam valores médios, enquanto outros ajudam a enxergar **como a renda está distribuída dentro de cada Região Administrativa**.
+Eu comecei todo esse projeto **Exclusivamente** com a ideia de renda na cabeça, porque queria provar um ponto específico, mas a medida que o trabalho de provar meu ponto se mostrou maior do que parecia, e fui obrigado a procurar dados no site do _Instituto de Pesquisa Estatística_ do DF (IPES-DF) eu resolvi aumentar o escopo e abarcar outras informações legais que achei, porque não né? Já tava fácil mesmo...
+
+Embora isso prove meu ponto, o maior problema é que todo o objetivo do meu trabalho era voltado para a renda, então hoje eu confesso que fico meio perdido em como visualizar e o que fazer com esses outros dados que processei, aceito ajuda da intepretação de colegas que estiverem disponíveis.
+
+Por hora vou me ater a **Renda** e não pretendo disicutir o penso aqui, quero apresentar friamente os dados e deixar vagamente uma interpretação de sua signficância estatística, a interpretação creio que seja mais rica se feita por cada um, e confesso que adoraria que compartilhassem sua opinião comigo.
+
+Os indicadores de renda não mostram exatamente a mesma coisa e elemento principal a se notar nesse trabalho é que simplesmente caracterizar a **renda média** como classificador de uma região, é vazio de significado, e uma análise muito pobre. Por isso resolvi trazer toda sorte de indicadores para tentar evidenciar **como a renda está distribuída dentro de cada Região Administrativa**.
 
 ### Renda média
 
-É a média das rendas observadas para aquela Região Administrativa. Ela oferece uma visão geral do nível de renda da região, mas pode ser bastante influenciada por rendas muito altas ou muito baixas.
+É a média das rendas observadas para aquela Região Administrativa. Ela oferece uma visão geral do nível de renda da região, mas pode ser bastante enganosa pois ela é influenciada por rendas muito altas ou muito baixas.
 
-Por exemplo, se nove pessoas recebem R$ 2.000 e uma recebe R$ 30.000, essa última pessoa aumenta consideravelmente a média. Por isso, é interessante observar a renda média junto com os percentis apresentados abaixo.
+Por exemplo, se nove pessoas recebem R$ 2.000 e uma recebe R$ 30.000, essa última pessoa aumenta consideravelmente a média. Por isso, é interessante observar a renda média junto com algumas medidas de dispersão para ver o quanto os resultados se afastam dela.
+
+Para o estudo da renda eu decidi abordar a divisão do valores em algo que na estatística chamamos de **quantis**.
+
+Quantis são uma técnica de análise descritiva de dados, ao invés de usarmos fórmulas para calcular valores aproximados (a exemplo da média), nós ordenamos nossos dados em ordem crescente e então dividimos os dados em uma certa quantidade de grupos (chamados quantis, quando divimos em 4 são chamados quartis, em 5 quintis, até centis quando dividimos em 100 partes) e pegamos o valor que ocupa a posição Q desse grupo
 
 ### P10 — 10º percentil
 
@@ -24,23 +34,12 @@ O **P10** representa o valor abaixo do qual estão aproximadamente **10% das obs
 
 Ele ajuda a observar a parte de menor renda da distribuição. Se uma RA possui P10 de R$ 1.000, isso significa que aproximadamente 10% das observações consideradas possuem renda de até esse valor, enquanto cerca de 90% estão acima dele.
 
-### P25 / Q1 — primeiro quartil
-
-O **P25**, também chamado de **primeiro quartil (Q1)**, é o valor abaixo do qual estão aproximadamente **25% das observações**.
-
-Ele funciona como outro ponto de referência para a parcela de menor renda da região. Em outras palavras, aproximadamente um quarto das observações está abaixo desse valor e três quartos estão acima.
 
 ### P50 — mediana
 
 O **P50** é a **mediana da renda** e divide as observações da região ao meio: aproximadamente **50% estão abaixo desse valor e 50% estão acima**.
 
 A mediana é especialmente útil para comparar renda porque sofre menos influência de valores extremos do que a média. Uma RA pode, por exemplo, apresentar uma renda média elevada por causa de um grupo relativamente pequeno de rendas muito altas, enquanto sua mediana permanece consideravelmente menor.
-
-### P75 / Q3 — terceiro quartil
-
-O **P75**, ou **terceiro quartil (Q3)**, indica o valor abaixo do qual estão aproximadamente **75% das observações**. Consequentemente, cerca de 25% encontram-se acima desse ponto.
-
-Comparar o P75 com a mediana e os percentis inferiores ajuda a perceber como a renda se distribui dentro da própria Região Administrativa.
 
 ### P90 — 90º percentil
 
@@ -54,9 +53,11 @@ Os percentis podem ser imaginados como **pontos ao longo de uma fila de rendas o
 
 **menores rendas → P10 → P25 → P50 → P75 → P90 → maiores rendas**
 
+Para se ter uma ideia de como uma região é desigual, é interessante muitas vezes analisar a diferença (em valores monetários) entre o P75 e o P25, isso é chamado _diferença interquartil_ e mostra bem o quanto uma região pode ser um abismo de valor entre os 25% mais ricos (que ganham pelo o valor de P75) e os 25% mais pobres (que ganham até o valor de P25).
+
 Por isso, não é necessário escolher apenas um deles. A **média** oferece uma medida geral da renda da região; a **mediana (P50)** mostra melhor o centro da distribuição; P10 e P25 ajudam a observar sua parte inferior; e P75 e P90 mostram o comportamento da parte superior.
 
-Ao alternar esses indicadores no mapa, é possível observar não apenas quais Regiões Administrativas apresentam rendas maiores ou menores, mas também perceber diferenças na **distribuição da renda dentro de cada região**.
+Ao clicar esses indicadores no mapa, é possível observar não apenas quais Regiões Administrativas apresentam rendas maiores ou menores, mas também perceber diferenças na **distribuição da renda dentro de cada região**.
 
 
 
