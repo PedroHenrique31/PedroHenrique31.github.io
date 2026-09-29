@@ -8,14 +8,6 @@ O resultado desse trabalho é o mapa que você encontra nesta página. A ideia �
 
 O repositório tá em [Projeto GeoPandas](https://github.com/PedroHenrique31/ProjetoGeoPandas) usei isso como subtefúrgio para aprender a processar dados geográficos e acho que seria um serviço público interessante.
 
-## Como usar o mapa
-
-O mapa reúne os indicadores calculados a partir dos dados da **PDAD 2024** e os apresenta por Região Administrativa do Distrito Federal. Os dados da pesquisa foram tratados e agrupados por RA e, posteriormente, associados aos limites geográficos de cada região para permitir sua visualização no mapa.
-
-As **cores** representam o valor do indicador selecionado: regiões com valores semelhantes aparecem com tonalidades próximas, enquanto a escala apresentada na legenda ajuda a interpretar as diferenças entre elas. Você pode navegar normalmente pelo mapa, aproximando ou afastando a visualização, e passar o cursor sobre uma Região Administrativa para consultar seus dados.
-
-Quando houver mais de uma camada disponível, o **controle de camadas** permite escolher qual indicador será representado pelas cores do mapa. Assim, o mesmo mapa pode ser utilizado para observar diferentes aspectos do Distrito Federal sem precisar abrir uma página diferente para cada indicador.
-
 ## Entendendo os indicadores de renda
 
 Os indicadores de renda não mostram exatamente a mesma coisa. Alguns representam valores médios, enquanto outros ajudam a enxergar **como a renda está distribuída dentro de cada Região Administrativa**.
@@ -65,6 +57,16 @@ Os percentis podem ser imaginados como **pontos ao longo de uma fila de rendas o
 Por isso, não é necessário escolher apenas um deles. A **média** oferece uma medida geral da renda da região; a **mediana (P50)** mostra melhor o centro da distribuição; P10 e P25 ajudam a observar sua parte inferior; e P75 e P90 mostram o comportamento da parte superior.
 
 Ao alternar esses indicadores no mapa, é possível observar não apenas quais Regiões Administrativas apresentam rendas maiores ou menores, mas também perceber diferenças na **distribuição da renda dentro de cada região**.
+
+
+
+## Como usar o mapa
+
+O mapa reúne os indicadores calculados a partir dos dados da **PDAD 2024** e os apresenta por Região Administrativa do Distrito Federal. Os dados da pesquisa foram tratados e agrupados por RA e, posteriormente, associados aos limites geográficos de cada região para permitir sua visualização no mapa.
+
+As **cores** representam o valor do indicador selecionado: regiões com valores semelhantes aparecem com tonalidades próximas, enquanto a escala apresentada na legenda ajuda a interpretar as diferenças entre elas. Você pode navegar normalmente pelo mapa, aproximando ou afastando a visualização, e passar o cursor sobre uma Região Administrativa para consultar seus dados.
+
+Quando houver mais de uma camada disponível, o **controle de camadas** permite escolher qual indicador será representado pelas cores do mapa. Assim, o mesmo mapa pode ser utilizado para observar diferentes aspectos do Distrito Federal sem precisar abrir uma página diferente para cada indicador.
 
 <iframe
     src="mapa_renda_df.html"
