@@ -4,6 +4,8 @@ Durante a exploração dos microdados da PDAD-A 2024, encontrei uma possibilidad
 
 Foi daí que surgiu o grafo interativo de fluxos de trabalho: uma visualização das relações entre as regiões de residência e os destinos de trabalho, construída a partir de um dataset de fluxos origem-destino.
 
+**Espero mesmo trazer algo de interessante, pois essa questão do transporte no DF acho que é a nossa pauta mais complexa.**
+
 ## Um dataset maior do que parece
 
 O conjunto de dados não se limita às ligações entre as Regiões Administrativas (RAs) do DF. Ele também registra destinos em municípios de Goiás, incluindo cidades do entorno e lugares mais distantes, como Anápolis e Goiânia. O CSV de origem-destino utilizado nesta etapa contém 940 combinações, com 36 categorias de origem e 53 categorias de destino. Essas categorias incluem locais de trabalho como “No domicílio” e “Vários locais”, portanto nem todas correspondem a cidades ou RAs.
@@ -57,3 +59,11 @@ No futuro, quero acrescentar um **mapa de fluxos**, colocando as relações orig
 ## Conclusões sobre os fluxos
 
 <!-- Espaço reservado para acrescentar as conclusões após a análise dos fluxos laborais. -->
+
+
+<iframe
+    src="grafo_fluxos_trabalho.html"
+    width="100%"
+    height="900"
+    style="border: none;">
+</iframe>
