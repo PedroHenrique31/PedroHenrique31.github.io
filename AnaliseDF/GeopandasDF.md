@@ -167,7 +167,9 @@ As **cores** representam o valor do indicador selecionado: regiões com valores 
 
 Quando houver mais de uma camada disponível, o **controle de camadas** permite escolher qual indicador será representado pelas cores do mapa. Assim, o mesmo mapa pode ser utilizado para observar diferentes aspectos do Distrito Federal sem precisar abrir uma página diferente para cada indicador.
 
-<span style="color: #e74c3c;">Ah e tem de brinde uma pagina nova onde eu quis falar APENAS da parte de transporte do DF: </span>  [Aqui](fluxosLaborais.md)
+<span style="color: #e74c3c;">Ah e tem de brinde uma pagina nova onde eu quis falar APENAS da parte de transporte do DF: </span>  
+
+[Aqui](./fluxosLaborais.md)
 
 
 <iframe
