@@ -60,7 +60,7 @@ No futuro, quero acrescentar um **mapa de fluxos**, colocando as relações orig
 
 <!-- Espaço reservado para acrescentar as conclusões após a análise dos fluxos laborais. -->
 
-<!--
+
 <iframe
     src="grafo_fluxos_trabalho.html"
     width="100%"
@@ -68,4 +68,3 @@ No futuro, quero acrescentar um **mapa de fluxos**, colocando as relações orig
     style="border: none;">
 </iframe> 
 
--->
