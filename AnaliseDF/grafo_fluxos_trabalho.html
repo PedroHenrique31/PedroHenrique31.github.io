@@ -221,7 +221,7 @@ function highlightFilter(filter) {
 //# sourceMappingURL=vis-network.min.js.map</script>
             
         
-<center><p>Nós: entradas brutas DF × DF, incluindo fluxo interno · Setas: fluxo líquido · Passe o mouse sobre uma RA para focar suas saídas. Distância sem significado geográfico.</p>
+<center><p>Bolinhas: trabalhadores recebidos, incluindo fluxo interno · Setas: fluxo líquido · Clique numa região para consultar detalhes e focar suas saídas líquidas. Feche a janela para selecionar uma conexão; clique no fundo para restaurar o grafo. A disposição não representa distâncias geográficas.</p>
 <h1></h1>
 </center>
 
@@ -328,26 +328,61 @@ function highlightFilter(filter) {
               }
               drawGraph();
         </script>
-    <script>
-const corBase='#d9dde3', corFoco='#2563eb';
-const originais=edges.get().map(e=>({id:e.id,from:e.from,width:e.width??1}));
-function cor(c){return {color:c,highlight:c,hover:c,inherit:false,opacity:1};}
-function restaurar(){edges.update(originais.map(e=>({id:e.id,hidden:false,width:e.width,color:cor(corBase)})));}
-network.on('hoverNode',({node})=>{edges.update(originais.map(e=>({id:e.id,hidden:e.from!==node,width:e.width,color:cor(e.from===node?corFoco:corBase)})));});
-network.on('blurNode',restaurar);
-//network.once('stabilized',()=>network.setOptions({physics:{enabled:false}}));
-function pararFisica() {
-    network.stopSimulation();
-    network.setOptions({physics: {enabled: false}});
-}
-
-// Para quando estabilizar ou, no máximo, após 5 segundos.
-network.once('stabilized', pararFisica);
-setTimeout(pararFisica, 5000);
-// vis-network aceita HTMLElement para tooltips HTML; converter após criação.
-nodes.update(nodes.get().map(n=>{const el=document.createElement('div');el.innerHTML=n.title;return {id:n.id,title:el};}));
-edges.update(edges.get().map(e=>{const el=document.createElement('div');el.innerHTML=e.title;return {id:e.id,title:el};}));
-restaurar();
+    <style>
+#popup-grafo {box-sizing:border-box;width:min(560px,calc(100vw - 24px));max-height:calc(100vh - 24px);padding:0;border:1px solid #cbd5e1;border-radius:12px;background:white;color:#263238;box-shadow:0 12px 40px #0003;font:15px/1.6 system-ui,sans-serif;overflow:hidden;}
+#popup-grafo::backdrop {background:rgb(0 0 0 / 18%);}
+#popup-grafo .cabecalho {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 16px;border-bottom:1px solid #e2e8f0;}
+#popup-grafo .conteudo {padding:16px;max-height:max(80px,calc(100vh - 110px));overflow-y:auto;overflow-wrap:anywhere;overscroll-behavior:contain;}
+#popup-grafo button {border:1px solid #cbd5e1;border-radius:6px;padding:6px 12px;background:#f8fafc;cursor:pointer;font:inherit;}
+#popup-grafo button:focus-visible {outline:3px solid #2563eb;outline-offset:2px;}
+</style>
+<dialog id="popup-grafo" aria-labelledby="titulo-popup">
+<div class="cabecalho"><strong id="titulo-popup">Detalhes</strong><button type="button" id="fechar-popup" autofocus>Fechar</button></div>
+<div class="conteudo" id="conteudo-popup"></div>
+</dialog>
+<script>
+(() => {
+    const corBase='#d9dde3', corFoco='#2563eb';
+    const popup=document.getElementById('popup-grafo');
+    const titulo=document.getElementById('titulo-popup');
+    const conteudo=document.getElementById('conteudo-popup');
+    // Preservar os textos da célula 15 e desativar os tooltips.
+    const textosNos=new Map(nodes.get().map(n=>[n.id,n.title ?? '']));
+    const textosArestas=new Map(edges.get().map(e=>[e.id,e.title ?? '']));
+    const originais=edges.get().map(e=>({id:e.id,from:e.from,width:e.width ?? 1}));
+    nodes.update(nodes.get().map(n=>({id:n.id,title:null})));
+    edges.update(edges.get().map(e=>({id:e.id,title:null})));
+    function cor(c){return {color:c,highlight:corFoco,hover:corFoco,inherit:false,opacity:1};}
+    function restaurar(){
+        edges.update(originais.map(e=>({id:e.id,hidden:false,width:e.width,color:cor(corBase)})));
+        network.unselectAll();
+    }
+    function focar(node){
+        edges.update(originais.map(e=>({id:e.id,hidden:e.from!==node,width:e.width,color:cor(e.from===node?corFoco:corBase)})));
+    }
+    function abrirPopup(rotulo,texto){
+        titulo.textContent=rotulo;
+        conteudo.innerHTML=texto;
+        conteudo.scrollTop=0;
+        if(!popup.open) popup.showModal();
+    }
+    document.getElementById('fechar-popup').onclick=()=>popup.close();
+    // Esc fecha o dialog; fechar preserva o foco da região.
+    network.on('click',params=>{
+        if(params.nodes.length){
+            const id=params.nodes[0];
+            focar(id);
+            abrirPopup(nodes.get(id).label,textosNos.get(id));
+        }else if(params.edges.length){
+            const id=params.edges[0];
+            abrirPopup('Detalhes da conexão',textosArestas.get(id));
+        }else{restaurar();}
+    });
+    function pararFisica(){network.stopSimulation();network.setOptions({physics:{enabled:false}});}
+    network.once('stabilized',pararFisica);
+    setTimeout(pararFisica,5000);
+    restaurar();
+})();
 </script>
 </body>
 </html>
