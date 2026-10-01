@@ -167,7 +167,6 @@ As **cores** representam o valor do indicador selecionado: regiões com valores 
 
 Quando houver mais de uma camada disponível, o **controle de camadas** permite escolher qual indicador será representado pelas cores do mapa. Assim, o mesmo mapa pode ser utilizado para observar diferentes aspectos do Distrito Federal sem precisar abrir uma página diferente para cada indicador.
 
-[Aqui](fluxosLaboraisDF.md)
 
 
 <iframe
@@ -176,3 +175,16 @@ Quando houver mais de uma camada disponível, o **controle de camadas** permite 
     height="900"
     style="border: none;">
 </iframe>
+
+**E não vai embora não, tem outro grafico pra vc**
+
+Eu achei também dados sobre mobilidade aqui o DF, que é um tema que muito me interessa, já que é disparadamente é o que mais critico aqui, então vai lá na outra página que tem outro grafico de bolinhas e frescura pra vc ler e se dizer um analista de de bigdata vai clica [Aqui](fluxosLaboraisDF.md)
+
+
+<iframe
+    src="mapa_renda_df.html"
+    width="100%"
+    height="900"
+    style="border: none;">
+</iframe>
+
