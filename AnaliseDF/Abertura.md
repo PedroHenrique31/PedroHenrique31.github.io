@@ -12,7 +12,7 @@ Também confesso que me falta um feedback. Preciso saber o que interessa mais ao
 
 ## Links para clicar
 
-Tenho até vergonha, porque ainda preciso melhorar os textos e as explicações para deixar tudo mais amigável para quem lê. Mas, como tô fazendo tudo sozinho, ando meio confuso: tenho que olhar os dados, analisar, processar, gerar os gráficos e pensar em como colocar tudo na página. Depois ainda preciso escrever as explicações e tirar alguma conclusão — essa última parte é a mais difícil, e até agora não entreguei nenhuma 😅
+Tenho até vergonha, porque ainda preciso melhorar os textos e as explicações para deixar tudo mais amigável para quem lê. Mas, como tô fazendo tudo sozinho, ando meio confuso: tenho que olhar os dados, analisar, processar, gerar os gráficos e pensar em como colocar tudo na página. Depois ainda preciso escrever as explicações e tirar alguma conclusão (essa última parte é a mais difícil, e até agora não entreguei nenhuma 😅)
 
 Mas você já pode dar uma zoiada aí, clicar, arrastar e ver umas coisinhas com cores. 🌈⃤
 
@@ -20,9 +20,9 @@ Mas você já pode dar uma zoiada aí, clicar, arrastar e ver umas coisinhas com
 
 - Nessa outra página, você pode explorar só o tópico de transportes, eu fiz um mapa de fluxos de como as pessoas se deslocam no DF, o sentido casa-trabalho, foi uma descoberta interessantissima saber que tem gente compilando esses dados, eles são MUITO úteis e servem para planejar muitas coisa do transporte do DF, mas infelizmente no pouco tempo de tive eu só reuni as descrições dele e fiz esse negocinho... tem muitíssimo mais informações a saber nesse topico aqui e pretendo aumentar depois: [Aqui pra ver a análise dos tranportes 👀](fluxosLaboraisDF.md)
 
-Mas no geral os dois grandes objetivos que eu tinha eu diria que cumpri, que era criar os gráficos de análise mais facilitada, cheio de bolinha e frufru, corzinha essas bobajada que os analistas de dados amam pq evitar de ler números.
+Mas no geral os dois grandes objetivos que eu tinha eu diria que cumpri, que era criar os gráficos de análise mais facilitada, cheio de bolinha e frufru, corzinha essas bobajada que os analistas de dados amam fazer pra não ler números. kkkkk
 
-No mínimo vc vai pode se sentir no matriz vendo os bytes passando.
+No mínimo vc vai pode se sentir no matrix vendo os bytes passando.
 
 
 <iframe
