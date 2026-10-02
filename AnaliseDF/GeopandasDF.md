@@ -8,7 +8,7 @@ O resultado desse trabalho é o mapa que você encontra nesta página. A ideia �
 
 O repositório tá em [Projeto GeoPandas](https://github.com/PedroHenrique31/ProjetoGeoPandas) usei isso como subtefúrgio para aprender a processar dados geográficos e acho que seria um serviço público interessante.
 
-## Entendendo os indicadores de renda
+## Entendo os dados do mapa
 
 Eu comecei todo esse projeto **exclusivamente** com a ideia de renda na cabeça, porque queria investigar um ponto específico. Só que, à medida que o trabalho de demonstrar esse ponto se mostrou bem maior do que parecia e eu fui obrigado a procurar dados no site do _Instituto de Pesquisa Estatística_ do DF (IPES-DF), resolvi aumentar um pouco o escopo e aproveitar outras informações interessantes que encontrei pelo caminho.
 
@@ -21,6 +21,25 @@ Por enquanto, vou me ater à **renda**. Também não pretendo discutir muito o q
 O principal ponto que quero destacar é que os indicadores de renda **não mostram exatamente a mesma coisa**. Simplesmente caracterizar uma Região Administrativa pela sua **renda média** pode esconder muita informação sobre quem realmente vive ali.
 
 Por isso, em vez de olhar apenas para uma média, resolvi trazer alguns indicadores que nos ajudam a enxergar **como a renda está distribuída dentro de cada Região Administrativa**.
+
+## Como usar o mapa
+
+O mapa reúne os indicadores calculados a partir dos dados da **PDAD 2024** e os apresenta por Região Administrativa do Distrito Federal. Os dados da pesquisa foram tratados e agrupados por RA e, posteriormente, associados aos limites geográficos de cada região para permitir sua visualização no mapa.
+
+As **cores** representam o valor do indicador selecionado: regiões com valores semelhantes aparecem com tonalidades próximas, enquanto a escala apresentada na legenda ajuda a interpretar as diferenças entre elas. Você pode navegar normalmente pelo mapa, aproximando ou afastando a visualização, e passar o cursor sobre uma Região Administrativa para consultar seus dados.
+
+Quando houver mais de uma camada disponível, o **controle de camadas** permite escolher qual indicador será representado pelas cores do mapa. Assim, o mesmo mapa pode ser utilizado para observar diferentes aspectos do Distrito Federal sem precisar abrir uma página diferente para cada indicador.
+
+
+
+<iframe
+    src="mapa_renda_df.html"
+    width="100%"
+    height="900"
+    style="border: none;">
+</iframe>
+
+## Entendendo os indicadores de renda
 
 ### Renda média
 
@@ -159,22 +178,10 @@ Nenhum desses números conta a história inteira sozinho. É justamente **a dife
 Ao clicar nesses indicadores no mapa, portanto, a ideia não é simplesmente descobrir quais Regiões Administrativas são "mais ricas" ou "mais pobres". É possível observar também **como essa renda está distribuída dentro de cada região** e perceber situações que uma simples média poderia esconder.
 
 
-## Como usar o mapa
+## Tem outras informações
 
-O mapa reúne os indicadores calculados a partir dos dados da **PDAD 2024** e os apresenta por Região Administrativa do Distrito Federal. Os dados da pesquisa foram tratados e agrupados por RA e, posteriormente, associados aos limites geográficos de cada região para permitir sua visualização no mapa.
+Como você pode ver
 
-As **cores** representam o valor do indicador selecionado: regiões com valores semelhantes aparecem com tonalidades próximas, enquanto a escala apresentada na legenda ajuda a interpretar as diferenças entre elas. Você pode navegar normalmente pelo mapa, aproximando ou afastando a visualização, e passar o cursor sobre uma Região Administrativa para consultar seus dados.
-
-Quando houver mais de uma camada disponível, o **controle de camadas** permite escolher qual indicador será representado pelas cores do mapa. Assim, o mesmo mapa pode ser utilizado para observar diferentes aspectos do Distrito Federal sem precisar abrir uma página diferente para cada indicador.
-
-
-
-<iframe
-    src="mapa_renda_df.html"
-    width="100%"
-    height="900"
-    style="border: none;">
-</iframe>
 
 **E não vai embora não, tem outro grafico pra vc**
 
