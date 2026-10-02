@@ -178,20 +178,9 @@ Nenhum desses números conta a história inteira sozinho. É justamente **a dife
 Ao clicar nesses indicadores no mapa, portanto, a ideia não é simplesmente descobrir quais Regiões Administrativas são "mais ricas" ou "mais pobres". É possível observar também **como essa renda está distribuída dentro de cada região** e perceber situações que uma simples média poderia esconder.
 
 
-## Tem outras informações
-
-Como você pode ver
 
 
-**E não vai embora não, tem outro grafico pra vc**
+## E não vai embora não, tem outro gráfico pra vc
 
-Eu achei também dados sobre mobilidade aqui o DF, que é um tema que muito me interessa, já que é disparadamente é o que mais critico aqui, então vai lá na outra página que tem outro grafico de bolinhas e frescura pra vc ler e se dizer um analista de de bigdata vai clica [Aqui](fluxosLaboraisDF.md)
-
-
-<iframe
-    src="Keanu Reeves 90S GIF.gif"
-    width="100%"
-    height="900"
-    style="border: none;">
-</iframe>
+Eu achei também dados sobre mobilidade aqui o DF, que é um tema que muito me interessa, já que é disparadamente é o que mais critico aqui, então vai lá na outra página que tem outro gráfico de bolinhas e essas frescura pra você ler e se dizer um analista de de bigdata vai clica [Aqui](fluxosLaboraisDF.md)
 
