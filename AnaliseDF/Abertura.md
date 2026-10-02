@@ -10,6 +10,16 @@ O resultado, por enquanto, é um trabalho mais descritivo das regiões do DF. A 
 
 Também confesso que me falta um feedback. Preciso saber o que interessa mais ao público, quais perguntas as pessoas gostariam de responder e que informações ajudariam a tomar uma boa decisão. Então, se você olhar os dados e pensar “queria entender melhor isso aqui”, já temos um caminho para continuar.
 
+## Links para clicar
+
+Tenho até vergonha, porque ainda preciso melhorar os textos e as explicações para deixar tudo mais amigável para quem lê. Mas, como tô fazendo tudo sozinho, ando meio confuso: tenho que olhar os dados, analisar, processar, gerar os gráficos e pensar em como colocar tudo na página. Depois ainda preciso escrever as explicações e tirar alguma conclusão — essa última parte é a mais difícil, e até agora não entreguei nenhuma 😅
+
+Mas você já pode dar uma zoiada aí, clicar, arrastar e ver umas coisinhas com cores. 🌈⃤
+
+- Nesse projeto você pode ver um mapa das RAs do DF organizados pelas informações de renda, preparei ele como um resumo de tudo que que temos, então tem também informações de caracterização dos domicílios, de meios de transporte e afins: [Aqui pra ver o mapa geral 👀](GeopandasDF.md)
+
+- Nessa outra página, você pode explorar só o tópico de transportes, eu fiz um mapa de fluxos de como as pessoas se deslocam no DF, o sentido casa-trabalho, foi uma descoberta interessantissima saber que tem gente compilando esses dados, eles são MUITO úteis e servem para planejar muitas coisa do transporte do DF, mas infelizmente no pouco tempo de tive eu só reuni as descrições dele e fiz esse negocinho... tem muitíssimo mais informações a saber nesse topico aqui e pretendo aumentar depois: [Aqui pra ver a análise dos tranportes 👀](fluxosLaboraisDF.md)
+
 ## Das conclusões
 
 Ao longo desse projeto, passei por várias experiências e tirei conclusões sobre muita coisa. Vocês podem me lembrar e cobrar depois para falar de *vibecoding*, por exemplo: como foi o processo de usar IA para desenvolver os códigos. Também quero voltar às análises do DF (e nessa parte adoraria uma ajudinha de mais alguém).
@@ -36,6 +46,3 @@ Foi daí que esse projeto ganhou outro sentido para mim. Além de agrupar regiõ
 
 _De qualquer forma as informações estão aqui, espero que gostem, gostaria que servicem para ajudá-los em suas escolhas políticas no domingo... mas não sei se dá, pelo menos para brincar deu_
 
-- Nesse projeto você pode ver um mapa das RAs do DF organizados pelas informações de renda, preparei ele como um resumo de tudo que que temos, então tem também informações de caracterização dos domicílios, de meios de transporte e afins: [Aqui](GeopandasDF.md)
-
-- Nessa outra página, você pode explorar só o tópico de transportes, eu fiz um mapa de fluxos de como as pessoas se deslocam no DF, o sentido casa-trabalho, foi uma descoberta interessantissima saber que tem gente compilando esses dados, eles são MUITO úteis e servem para planejar muitas coisa do transporte do DF, mas infelizmente no pouco tempo de tive eu só reuni as descrições dele e fiz esse negocinho... tem muitíssimo mais informações a saber nesse topico aqui e pretendo aumentar depois: [Aqui](fluxosLaboraisDF.md)
