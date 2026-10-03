@@ -1,6 +1,6 @@
 ## Das conclusões — ou de como este projeto deixou de ser sobre renda
 
-Eu já comecei este projeto com uma pulga atrás da orelha. Há quase dez anos, li sobre uma pesquisa internacional que colocava o Brasil entre os países em que havia maior distância entre a percepção das pessoas e alguns aspectos mensuráveis da própria realidade social ( [Fundação Perseu Abramo](https://fpabramo.org.br/brasileiro-e-o-segundo-pior-na-percepcao-da-propria-realidade/) | [Folha de S.Paulo](https://www1.folha.uol.com.br/mundo/2017/12/1941021-brasil-e-2-pais-com-menos-nocao-da-propria-realidade-aponta-pesquisa.shtml) ). 
+Eu já comecei este projeto com uma pulga atrás da orelha. Há quase dez anos, li sobre uma pesquisa internacional que colocava o Brasil entre os países em que havia maior distância entre a percepção das pessoas e alguns aspectos mensuráveis da própria realidade social ( [Fundação Perseu Abramo](https://fpabramo.org.br/brasileiro-e-o-segundo-pior-na-percepcao-da-propria-realidade/) / [Folha de S.Paulo](https://www1.folha.uol.com.br/mundo/2017/12/1941021-brasil-e-2-pais-com-menos-nocao-da-propria-realidade-aponta-pesquisa.shtml) ). 
 
 Essa informação ficou na minha cabeça desde então. De alguma forma, sempre me incomodou a possibilidade de vivermos em um país que conhecemos muito menos do que imaginamos.
 
